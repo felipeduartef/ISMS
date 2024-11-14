@@ -1,42 +1,18 @@
-// import logo from './logo.svg';
-import './App.css';
+// src/App.js
+import React from 'react';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import Login from './Frontend/login';
+import Menu from './Frontend/Index';
 
-function MyButton() {
-  return (
-    <button>
-      Login
-    </button>
-  );
-}
-
-function LoginPage () {
-  return (
-
-    <div className= "LoginPage">
-      <h1 className = "loginPage-title">Log in to ISMS</h1>
-      <form>
-
-        <input type = "text" name= "username"></input>
-        <br></br>
-        <input type= "password" name= "password"/>
-        <br></br>
-        <br></br>
-
-        <MyButton />
-
-      </form>
-    </div>
-  );
-}
-
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <LoginPage /> 
-      </header>
-    </div>
-  );
-}
+const App = () => {
+    return (
+        <Router>
+            <Routes>
+                <Route path="/" element={<Login />} />
+                <Route path="/menu" element={<Menu />} />
+            </Routes>
+        </Router>
+    );
+};
 
 export default App;

@@ -1,0 +1,58 @@
+input,
+select {
+    width: 60%;
+    height: 30px;
+    margin: 5px 0px;
+    box-sizing: border-box;
+}
+
+textarea {
+    width: 60%;
+    padding: 0;
+    margin: 5px 0px;
+    box-sizing: border-box;
+}
+
+.form-container {
+    max-width: 60%;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    background-color: #f9f9f9;
+    text-align: center;
+}
+.form-container  h2{
+    margin: 0px 0px 40px 0px;
+}
+
+.form-container .resetButton {
+    width: 28%;
+    margin: 2px;
+    padding: 10px 0px;
+    font-size:small;
+    color: #fff;
+    font-weight: 500; 
+    background-color: #ec720e;   
+}
+
+.form-container .submitButton {
+    width: 28%;
+    margin: 2px;
+    padding: 10px 0px;
+    font-size:small;
+    color: #fff;
+    font-weight: 500;
+    background-color: #2c3e50;  
+}
+
+.form-container label{
+    font-size:large;
+    color: #333;
+    font-weight: 500;
+}
+
+.button-container {
+    margin: 20px 0px;
+}

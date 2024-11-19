@@ -1,11 +1,11 @@
-// src/components/clients.js
+// src/components/inventory.js
 import React from 'react';
-import ProductForm from '../components/productForm';
+import ProductForm from '../components/newProductForm';
 
 const SearchClient = () => {
     return (
         <div>
-            <h3>Buscar cliente</h3>
+            <h3>Modificar producto</h3>
             <ProductForm />
         </div>
     );

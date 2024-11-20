@@ -7,7 +7,6 @@ const MenuComponent = () => {
     return (
         <div className="menu-container">
             <nav>
-                <h2>Menú</h2>
                 <ul>
                     <li className="active">
                         <Link to="/billing"><h3>Facturar</h3></Link>

@@ -8,7 +8,7 @@ import Inventory from './Frontend/inventory';
 import NewProduct from './components/newProductForm';
 import SearchProduct from './components/searchProductForm';
 import Clients from './Frontend/clients';
-import NewClient from './Frontend/newClient';
+import NewClient from './components/newClientForm';
 import SearchClient from './Frontend/searchClient';
 import Reports from './Frontend/reports';
 import Setting from './Frontend/setting';
